@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#040404"/>
+
+  <!-- Ghost large O -->
+  <text x="80" y="320" font-family="sans-serif" font-weight="900" font-size="280" fill="#DEDBC8" opacity="0.04">O</text>
+
+  <!-- Hoodie silhouette -->
+  <!-- Body -->
+  <path d="M 78,155 L 58,330 C 58,338 70,342 85,342 L 315,342 C 330,342 342,338 342,330 L 322,155 Z"
+        fill="#DEDBC8" fill-opacity="0.07" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.22"/>
+  <!-- Left sleeve -->
+  <path d="M 78,155 L 42,240 C 36,255 44,264 55,260 L 72,195 Z"
+        fill="#DEDBC8" fill-opacity="0.07" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.2"/>
+  <!-- Right sleeve -->
+  <path d="M 322,155 L 358,240 C 364,255 356,264 345,260 L 328,195 Z"
+        fill="#DEDBC8" fill-opacity="0.07" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.2"/>
+  <!-- Hood (the defining feature) -->
+  <path d="M 78,155 C 82,130 95,110 120,95 C 145,80 170,75 200,75 C 230,75 255,80 280,95 C 305,110 318,130 322,155 C 295,148 260,142 200,142 C 140,142 105,148 78,155 Z"
+        fill="#DEDBC8" fill-opacity="0.09" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.25"/>
+  <!-- Hood inner shadow / tunnel opening -->
+  <ellipse cx="200" cy="152" rx="55" ry="18" fill="#000" opacity="0.5"/>
+  <ellipse cx="200" cy="152" rx="42" ry="12" fill="none" stroke="#DEDBC8" stroke-width="0.5" stroke-opacity="0.2"/>
+
+  <!-- Kangaroo pocket -->
+  <path d="M 128,252 C 128,248 132,244 140,244 L 260,244 C 268,244 272,248 272,252 L 272,290 C 272,294 268,298 260,298 L 140,298 C 132,298 128,294 128,290 Z"
+        fill="none" stroke="#DEDBC8" stroke-width="0.7" stroke-opacity="0.25"/>
+  <!-- Pocket center divide -->
+  <line x1="200" y1="244" x2="200" y2="298" stroke="#DEDBC8" stroke-width="0.5" stroke-opacity="0.15"/>
+
+  <!-- Zipper line (half-zip detail) -->
+  <line x1="200" y1="152" x2="200" y2="215" stroke="#DEDBC8" stroke-width="1.2" stroke-opacity="0.18"/>
+  <!-- Zipper teeth suggestion -->
+  <g stroke="#DEDBC8" stroke-width="0.5" opacity="0.12">
+    <line x1="196" y1="165" x2="200" y2="165"/><line x1="204" y1="165" x2="200" y2="165"/>
+    <line x1="196" y1="175" x2="200" y2="175"/><line x1="204" y1="175" x2="200" y2="175"/>
+    <line x1="196" y1="185" x2="200" y2="185"/><line x1="204" y1="185" x2="200" y2="185"/>
+    <line x1="196" y1="195" x2="200" y2="195"/><line x1="204" y1="195" x2="200" y2="195"/>
+    <line x1="196" y1="205" x2="200" y2="205"/><line x1="204" y1="205" x2="200" y2="205"/>
+  </g>
+
+  <!-- Hem and cuffs -->
+  <line x1="60" y1="334" x2="340" y2="334" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.18"/>
+  <line x1="44" y1="256" x2="60" y2="256" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.18"/>
+  <line x1="340" y1="256" x2="356" y2="256" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.18"/>
+
+  <!-- Drawstring cords -->
+  <path d="M 168,152 C 165,165 162,185 165,215" fill="none" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.2" stroke-linecap="round"/>
+  <path d="M 232,152 C 235,165 238,185 235,215" fill="none" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.2" stroke-linecap="round"/>
+  <circle cx="165" cy="218" r="3" fill="none" stroke="#DEDBC8" stroke-width="0.6" stroke-opacity="0.3"/>
+  <circle cx="235" cy="218" r="3" fill="none" stroke="#DEDBC8" stroke-width="0.6" stroke-opacity="0.3"/>
+
+  <!-- APEX badge -->
+  <text x="30" y="40" font-family="sans-serif" font-weight="700" font-size="10" letter-spacing="5" fill="#DEDBC8" opacity="0.6">APEX</text>
+
+  <!-- Product name -->
+  <text x="30" y="358" font-family="sans-serif" font-weight="800" font-size="22" letter-spacing="-0.5" fill="#DEDBC8" opacity="0.9">OBSIDIAN</text>
+  <text x="30" y="380" font-family="sans-serif" font-weight="300" font-size="16" letter-spacing="3" fill="#DEDBC8" opacity="0.6">HOODIE</text>
+
+  <!-- Category -->
+  <text x="30" y="395" font-family="sans-serif" font-size="7" letter-spacing="3" fill="#DEDBC8" opacity="0.25">TOPS · FRENCH TERRY</text>
+
+  <!-- Circle accent -->
+  <circle cx="370" cy="38" r="10" fill="none" stroke="#DEDBC8" stroke-width="0.6" opacity="0.2"/>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#030303"/>
+
+  <!-- Denim texture lines (subtle) -->
+  <g stroke="#DEDBC8" stroke-width="0.3" opacity="0.025">
+    <line x1="0" y1="10" x2="400" y2="15"/>
+    <line x1="0" y1="22" x2="400" y2="27"/>
+    <line x1="0" y1="34" x2="400" y2="39"/>
+    <line x1="0" y1="46" x2="400" y2="51"/>
+    <line x1="0" y1="58" x2="400" y2="63"/>
+    <line x1="0" y1="70" x2="400" y2="75"/>
+    <line x1="0" y1="82" x2="400" y2="87"/>
+    <line x1="0" y1="94" x2="400" y2="99"/>
+    <line x1="0" y1="106" x2="400" y2="111"/>
+  </g>
+
+  <!-- Ghost R letter (Raw) -->
+  <text x="120" y="310" font-family="sans-serif" font-weight="900" font-size="260" fill="#DEDBC8" opacity="0.04">R</text>
+
+  <!-- High-top shoe (raw denim collab — construction boot influence) -->
+  <!-- Extended ankle (boot height) -->
+  <path d="M 42,185 C 42,135 56,100 80,82 C 100,66 128,62 152,65 L 154,160 C 140,158 132,162 126,172 L 42,185 Z"
+        fill="#DEDBC8" fill-opacity="0.08" stroke="#DEDBC8" stroke-width="1" stroke-opacity="0.22"/>
+  <!-- Main upper -->
+  <path d="M 42,255 C 42,222 50,205 68,198 L 126,172 C 148,162 200,156 255,160 C 310,163 348,180 360,204 C 366,220 364,242 358,255 L 42,255 Z"
+        fill="#DEDBC8" fill-opacity="0.09" stroke="#DEDBC8" stroke-width="1" stroke-opacity="0.3"/>
+  <!-- Sole (chunky boot sole) -->
+  <rect x="35" y="255" width="330" height="22" rx="4" fill="#DEDBC8" opacity="0.2"/>
+  <rect x="35" y="265" width="330" height="8" rx="2" fill="#000" opacity="0.4"/>
+  <!-- Lug sole detail (tread blocks) -->
+  <g fill="#DEDBC8" opacity="0.08">
+    <rect x="38" y="272" width="28" height="5" rx="1"/>
+    <rect x="74" y="272" width="28" height="5" rx="1"/>
+    <rect x="110" y="272" width="28" height="5" rx="1"/>
+    <rect x="146" y="272" width="28" height="5" rx="1"/>
+    <rect x="182" y="272" width="28" height="5" rx="1"/>
+    <rect x="218" y="272" width="28" height="5" rx="1"/>
+    <rect x="254" y="272" width="28" height="5" rx="1"/>
+    <rect x="290" y="272" width="28" height="5" rx="1"/>
+    <rect x="326" y="272" width="32" height="5" rx="1"/>
+  </g>
+
+  <!-- Eyelet column (boot lacing) -->
+  <g fill="#DEDBC8" opacity="0.45">
+    <circle cx="138" cy="178" r="2.5"/>
+    <circle cx="138" cy="158" r="2.5"/>
+    <circle cx="138" cy="138" r="2.5"/>
+    <circle cx="138" cy="118" r="2.5"/>
+    <circle cx="140" cy="98" r="2.5"/>
+    <circle cx="144" cy="80" r="2.5"/>
+    <!-- Main upper eyelets -->
+    <circle cx="168" cy="174" r="2.2"/>
+    <circle cx="194" cy="168" r="2.2"/>
+    <circle cx="220" cy="166" r="2.2"/>
+    <circle cx="246" cy="166" r="2.2"/>
+    <circle cx="272" cy="168" r="2.2"/>
+    <circle cx="298" cy="172" r="2.2"/>
+  </g>
+
+  <!-- D-ring hooks (top eyelets, boot detail) -->
+  <g stroke="#DEDBC8" stroke-width="0.8" fill="none" opacity="0.3">
+    <path d="M 134,98 C 134,93 148,93 148,98"/>
+    <path d="M 134,80 C 134,75 148,75 148,80"/>
+  </g>
+
+  <!-- Toe reinforcement cap -->
+  <path d="M 305,170 C 335,182 358,206 360,255 L 332,255 C 330,228 320,204 295,190 Z"
+        fill="#DEDBC8" opacity="0.06" stroke="#DEDBC8" stroke-width="0.5" stroke-opacity="0.15"/>
+
+  <!-- APEX badge -->
+  <text x="30" y="40" font-family="sans-serif" font-weight="700" font-size="10" letter-spacing="5" fill="#DEDBC8" opacity="0.6">APEX</text>
+
+  <!-- Collab mark -->
+  <text x="97" y="52" font-family="sans-serif" font-size="14" fill="#DEDBC8" opacity="0.4">×</text>
+  <text x="115" y="52" font-family="sans-serif" font-weight="700" font-size="10" letter-spacing="3" fill="#DEDBC8" opacity="0.4">RAW DENIM</text>
+
+  <!-- Product name -->
+  <text x="30" y="308" font-family="sans-serif" font-weight="800" font-size="20" letter-spacing="-0.5" fill="#DEDBC8" opacity="0.9">APEX × RAW</text>
+  <text x="30" y="332" font-family="sans-serif" font-weight="800" font-size="20" letter-spacing="-0.5" fill="#DEDBC8" opacity="0.9">DENIM</text>
+  <text x="30" y="358" font-family="sans-serif" font-weight="300" font-size="18" letter-spacing="3" fill="#DEDBC8" opacity="0.6">HIGH</text>
+
+  <!-- Category -->
+  <text x="30" y="380" font-family="sans-serif" font-size="7" letter-spacing="3" fill="#DEDBC8" opacity="0.25">COLLAB · SELVEDGE DENIM</text>
+
+  <!-- Corner mark -->
+  <line x1="355" y1="28" x2="380" y2="28" stroke="#DEDBC8" stroke-width="0.8" opacity="0.25"/>
+  <line x1="380" y1="28" x2="380" y2="53" stroke="#DEDBC8" stroke-width="0.8" opacity="0.25"/>
+</svg>

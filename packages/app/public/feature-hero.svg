@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 640" width="500" height="640">
+  <defs>
+    <radialGradient id="bg-grad" cx="50%" cy="60%" r="70%">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="shoe-upper-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#DEDBC8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#DEDBC8" stop-opacity="0.05"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="640" fill="url(#bg-grad)"/>
+
+  <!-- Ghost large A letterform -->
+  <text x="-60" y="540" font-family="sans-serif" font-weight="900" font-size="480" fill="#DEDBC8" opacity="0.03">A</text>
+
+  <!-- Diagonal structure lines -->
+  <line x1="0" y1="120" x2="500" y2="350" stroke="#DEDBC8" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="140" x2="500" y2="370" stroke="#DEDBC8" stroke-width="0.3" opacity="0.05"/>
+  <line x1="0" y1="160" x2="500" y2="390" stroke="#DEDBC8" stroke-width="0.3" opacity="0.03"/>
+
+  <!-- ── Sneaker silhouette (side profile, left-facing) ───────────────────── -->
+
+  <!-- Outsole / platform -->
+  <path d="M 55,395 C 50,410 70,425 130,425 L 440,425 C 465,425 475,415 470,400 L 440,395 Z"
+        fill="#DEDBC8" opacity="0.10"/>
+
+  <!-- Midsole stripe -->
+  <rect x="55" y="392" width="385" height="6" rx="3" fill="#DEDBC8" opacity="0.18"/>
+
+  <!-- Heel counter (back of shoe) -->
+  <path d="M 55,395 C 40,390 38,360 45,330 C 52,300 65,285 80,280 L 100,280 C 85,295 78,320 78,360 L 78,392 Z"
+        fill="#DEDBC8" opacity="0.09"/>
+
+  <!-- Main upper body -->
+  <path d="M 80,392 C 80,350 88,310 110,285 C 145,250 200,240 270,240 C 340,240 395,260 430,290 C 455,310 465,345 465,380 L 465,395 Z"
+        fill="url(#shoe-upper-grad)" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.22"/>
+
+  <!-- Toe box highlight (front of shoe) -->
+  <path d="M 390,290 C 420,300 455,325 465,360 L 465,395 L 430,395 C 430,370 420,340 400,315 Z"
+        fill="#DEDBC8" opacity="0.06"/>
+
+  <!-- Ankle collar -->
+  <path d="M 55,395 C 50,380 48,355 50,330 C 52,310 60,292 75,280 C 90,268 108,265 120,268"
+        fill="none" stroke="#DEDBC8" stroke-width="1.5" stroke-opacity="0.3" stroke-linecap="round"/>
+
+  <!-- Lace area (vamp) -->
+  <path d="M 165,275 C 200,260 260,252 320,255 L 330,290 C 275,285 218,290 180,302 Z"
+        fill="#DEDBC8" opacity="0.06" stroke="#DEDBC8" stroke-width="0.5" stroke-opacity="0.15"/>
+
+  <!-- Lace eyelets row -->
+  <g opacity="0.35" fill="#DEDBC8">
+    <circle cx="190" cy="280" r="2.5"/>
+    <circle cx="215" cy="273" r="2.5"/>
+    <circle cx="240" cy="268" r="2.5"/>
+    <circle cx="265" cy="264" r="2.5"/>
+    <circle cx="290" cy="262" r="2.5"/>
+    <circle cx="315" cy="262" r="2.5"/>
+  </g>
+
+  <!-- Lace string -->
+  <path d="M 190,280 C 202,271 213,274 215,273 C 227,266 238,269 240,268 C 252,263 263,265 265,264 C 277,260 288,263 290,262 C 302,259 313,263 315,262"
+        fill="none" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.25" stroke-linecap="round"/>
+
+  <!-- Sole tread lines (bottom) -->
+  <g opacity="0.12" stroke="#DEDBC8" stroke-width="1">
+    <line x1="120" y1="420" x2="120" y2="426"/>
+    <line x1="155" y1="420" x2="155" y2="426"/>
+    <line x1="190" y1="420" x2="190" y2="426"/>
+    <line x1="225" y1="420" x2="225" y2="426"/>
+    <line x1="260" y1="420" x2="260" y2="426"/>
+    <line x1="295" y1="420" x2="295" y2="426"/>
+    <line x1="330" y1="420" x2="330" y2="426"/>
+    <line x1="365" y1="420" x2="365" y2="426"/>
+    <line x1="400" y1="420" x2="400" y2="426"/>
+    <line x1="430" y1="420" x2="430" y2="426"/>
+  </g>
+
+  <!-- Brand badge — top left -->
+  <text x="38" y="58" font-family="sans-serif" font-weight="700" font-size="13" letter-spacing="5" fill="#DEDBC8" opacity="0.75">APEX</text>
+  <line x1="38" y1="64" x2="115" y2="64" stroke="#DEDBC8" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Collection label -->
+  <text x="38" y="82" font-family="sans-serif" font-size="8" letter-spacing="4" fill="#DEDBC8" opacity="0.3">SS26 COLLECTION</text>
+
+  <!-- Dot accent - top right -->
+  <circle cx="450" cy="55" r="1.5" fill="#DEDBC8" opacity="0.5"/>
+  <circle cx="458" cy="55" r="1.5" fill="#DEDBC8" opacity="0.3"/>
+  <circle cx="466" cy="55" r="1.5" fill="#DEDBC8" opacity="0.15"/>
+
+  <!-- Material note — beside shoe -->
+  <text x="38" y="462" font-family="sans-serif" font-size="8" letter-spacing="3" fill="#DEDBC8" opacity="0.25">PREMIUM LEATHER</text>
+
+  <!-- ── Bottom text block ───────────────────────────────────────────────── -->
+  <text x="38" y="560" font-family="sans-serif" font-weight="300" font-size="30" fill="#DEDBC8" opacity="0.8">Your creative</text>
+  <text x="38" y="598" font-family="sans-serif" font-weight="700" font-size="32" fill="#DEDBC8">canvas.</text>
+
+  <!-- Bottom corner mark -->
+  <text x="38" y="628" font-family="sans-serif" font-size="8" letter-spacing="2" fill="#DEDBC8" opacity="0.2">APEX STORE 2026</text>
+</svg>

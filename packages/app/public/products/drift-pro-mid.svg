@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#080808"/>
+
+  <!-- Background grid -->
+  <g stroke="#DEDBC8" stroke-width="0.3" opacity="0.04">
+    <line x1="0" y1="100" x2="400" y2="100"/>
+    <line x1="0" y1="200" x2="400" y2="200"/>
+    <line x1="0" y1="300" x2="400" y2="300"/>
+    <line x1="100" y1="0" x2="100" y2="400"/>
+    <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="300" y1="0" x2="300" y2="400"/>
+  </g>
+
+  <!-- Ghost digit -->
+  <text x="180" y="310" font-family="sans-serif" font-weight="900" font-size="260" fill="#DEDBC8" opacity="0.04">D</text>
+
+  <!-- Mid-top shoe (taller profile) -->
+  <!-- Ankle collar -->
+  <path d="M 44,195 C 44,160 56,135 75,120 C 100,102 135,98 160,100 L 160,160 C 148,158 136,162 130,170 L 44,195 Z"
+        fill="#DEDBC8" fill-opacity="0.06" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.2"/>
+  <!-- Main upper -->
+  <path d="M 44,250 C 44,220 50,205 65,200 L 130,170 C 155,162 200,160 255,165 C 305,168 340,183 352,205 C 358,218 357,238 350,250 L 44,250 Z"
+        fill="#DEDBC8" fill-opacity="0.08" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.28"/>
+  <!-- Sole -->
+  <rect x="38" y="250" width="318" height="14" rx="7" fill="#DEDBC8" opacity="0.16"/>
+  <!-- Mid-sole notch -->
+  <rect x="38" y="258" width="318" height="4" rx="2" fill="#000" opacity="0.4"/>
+
+  <!-- Lace eyelets (two rows - mid top) -->
+  <g fill="#DEDBC8" opacity="0.45">
+    <circle cx="155" cy="176" r="2"/>
+    <circle cx="180" cy="170" r="2"/>
+    <circle cx="205" cy="167" r="2"/>
+    <circle cx="230" cy="166" r="2"/>
+    <!-- Top row (ankle) -->
+    <circle cx="145" cy="148" r="2"/>
+    <circle cx="145" cy="126" r="2"/>
+  </g>
+
+  <!-- APEX badge -->
+  <text x="30" y="40" font-family="sans-serif" font-weight="700" font-size="10" letter-spacing="5" fill="#DEDBC8" opacity="0.6">APEX</text>
+
+  <!-- Product name -->
+  <text x="30" y="318" font-family="sans-serif" font-weight="800" font-size="26" letter-spacing="-0.5" fill="#DEDBC8" opacity="0.9">DRIFT PRO</text>
+  <text x="30" y="346" font-family="sans-serif" font-weight="300" font-size="20" letter-spacing="2" fill="#DEDBC8" opacity="0.6">MID</text>
+
+  <!-- Category -->
+  <text x="30" y="370" font-family="sans-serif" font-size="8" letter-spacing="3" fill="#DEDBC8" opacity="0.25">SNEAKERS · CANVAS</text>
+
+  <!-- Cross accent top right -->
+  <line x1="355" y1="30" x2="375" y2="50" stroke="#DEDBC8" stroke-width="0.8" opacity="0.25"/>
+  <line x1="375" y1="30" x2="355" y2="50" stroke="#DEDBC8" stroke-width="0.8" opacity="0.25"/>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="phantom-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="runner-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#DEDBC8" stop-opacity="0.04"/>
+      <stop offset="50%" stop-color="#DEDBC8" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#DEDBC8" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#phantom-bg)"/>
+
+  <!-- Dynamic diagonal slash composition (runner energy) -->
+  <rect x="-20" y="155" width="440" height="90" rx="0" fill="#DEDBC8" opacity="0.025" transform="rotate(-6 200 200)"/>
+
+  <!-- Ghost text -->
+  <text x="155" y="290" font-family="sans-serif" font-weight="900" font-size="240" fill="#DEDBC8" opacity="0.03">P</text>
+
+  <!-- Runner profile — very sleek, aerodynamic -->
+  <path d="M 38,238 C 38,218 50,200 70,193 C 100,183 155,180 220,180 C 285,180 335,192 355,210 C 365,220 366,232 362,242 L 38,242 Z"
+        fill="url(#runner-grad)" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.2"/>
+  <!-- Ultra-thin sole (performance) -->
+  <rect x="32" y="242" width="336" height="8" rx="4" fill="#DEDBC8" opacity="0.18"/>
+  <!-- Toe cap swoosh -->
+  <path d="M 310,195 C 335,202 358,220 362,242 L 340,242 C 338,228 330,210 310,203 Z"
+        fill="#DEDBC8" opacity="0.07"/>
+  <!-- Midfoot cutout (performance shoe detail) -->
+  <path d="M 170,238 C 170,228 180,222 200,222 C 220,222 235,228 240,238 Z"
+        fill="#000" opacity="0.5"/>
+
+  <!-- Ventilation lines (mesh) -->
+  <g stroke="#DEDBC8" stroke-width="0.5" opacity="0.12">
+    <line x1="200" y1="182" x2="185" y2="240"/>
+    <line x1="220" y1="181" x2="205" y2="240"/>
+    <line x1="240" y1="182" x2="225" y2="240"/>
+    <line x1="260" y1="184" x2="245" y2="240"/>
+    <line x1="280" y1="188" x2="265" y2="240"/>
+  </g>
+
+  <!-- Speed lines  -->
+  <g stroke="#DEDBC8" stroke-width="0.4" opacity="0.08">
+    <line x1="0" y1="260" x2="100" y2="250"/>
+    <line x1="0" y1="268" x2="80" y2="258"/>
+    <line x1="0" y1="276" x2="60" y2="266"/>
+  </g>
+
+  <!-- APEX badge -->
+  <text x="30" y="40" font-family="sans-serif" font-weight="700" font-size="10" letter-spacing="5" fill="#DEDBC8" opacity="0.6">APEX</text>
+
+  <!-- SOLD OUT indicator -->
+  <rect x="30" y="50" width="64" height="16" rx="3" fill="#DEDBC8" opacity="0.1"/>
+  <text x="35" y="62" font-family="sans-serif" font-size="7" letter-spacing="2" fill="#DEDBC8" opacity="0.5">SOLD OUT</text>
+
+  <!-- Product name -->
+  <text x="30" y="318" font-family="sans-serif" font-weight="800" font-size="26" letter-spacing="-0.5" fill="#DEDBC8" opacity="0.9">PHANTOM</text>
+  <text x="30" y="346" font-family="sans-serif" font-weight="300" font-size="20" letter-spacing="2" fill="#DEDBC8" opacity="0.6">RUN</text>
+
+  <!-- Category -->
+  <text x="30" y="370" font-family="sans-serif" font-size="8" letter-spacing="3" fill="#DEDBC8" opacity="0.25">SNEAKERS · MESH</text>
+
+  <!-- Triangle accent -->
+  <polygon points="370,25 385,50 355,50" fill="none" stroke="#DEDBC8" stroke-width="0.6" opacity="0.2"/>
+</svg>

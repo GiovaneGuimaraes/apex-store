@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#090909"/>
+
+  <!-- Background dot pattern -->
+  <g fill="#DEDBC8" opacity="0.03">
+    <circle cx="40" cy="40" r="1.5"/><circle cx="80" cy="40" r="1.5"/><circle cx="120" cy="40" r="1.5"/>
+    <circle cx="160" cy="40" r="1.5"/><circle cx="200" cy="40" r="1.5"/><circle cx="240" cy="40" r="1.5"/>
+    <circle cx="280" cy="40" r="1.5"/><circle cx="320" cy="40" r="1.5"/><circle cx="360" cy="40" r="1.5"/>
+    <circle cx="40" cy="80" r="1.5"/><circle cx="80" cy="80" r="1.5"/><circle cx="120" cy="80" r="1.5"/>
+    <circle cx="360" cy="80" r="1.5"/>
+  </g>
+
+  <!-- T-shirt silhouette (oversized = wide shoulders, boxy body) -->
+  <!-- Body -->
+  <path d="M 80,135 L 65,320 C 65,328 75,332 90,332 L 310,332 C 325,332 335,328 335,320 L 320,135 Z"
+        fill="#DEDBC8" fill-opacity="0.07" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.22"/>
+  <!-- Left sleeve (short, wide) -->
+  <path d="M 80,135 L 52,185 C 48,192 55,198 65,196 L 80,160 Z"
+        fill="#DEDBC8" fill-opacity="0.07" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.2"/>
+  <!-- Right sleeve -->
+  <path d="M 320,135 L 348,185 C 352,192 345,198 335,196 L 320,160 Z"
+        fill="#DEDBC8" fill-opacity="0.07" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.2"/>
+  <!-- Neckline (wide crew) -->
+  <path d="M 80,135 C 110,118 145,110 200,110 C 255,110 290,118 320,135"
+        fill="none" stroke="#DEDBC8" stroke-width="1.2" stroke-opacity="0.3"/>
+  <!-- Collar inner -->
+  <path d="M 115,135 C 140,125 165,120 200,120 C 235,120 260,125 285,135"
+        fill="none" stroke="#DEDBC8" stroke-width="0.5" stroke-opacity="0.15"/>
+
+  <!-- Hem line -->
+  <line x1="68" y1="325" x2="332" y2="325" stroke="#DEDBC8" stroke-width="0.6" stroke-opacity="0.15"/>
+
+  <!-- Center seam -->
+  <line x1="200" y1="130" x2="200" y2="332" stroke="#DEDBC8" stroke-width="0.4" stroke-opacity="0.08" stroke-dasharray="6,8"/>
+
+  <!-- Ghost graphic on chest (abstract) -->
+  <circle cx="200" cy="215" r="30" fill="none" stroke="#DEDBC8" stroke-width="0.5" stroke-opacity="0.12"/>
+  <circle cx="200" cy="215" r="18" fill="none" stroke="#DEDBC8" stroke-width="0.3" stroke-opacity="0.08"/>
+  <text x="188" y="220" font-family="sans-serif" font-weight="900" font-size="14" fill="#DEDBC8" opacity="0.12">AX</text>
+
+  <!-- APEX badge -->
+  <text x="30" y="40" font-family="sans-serif" font-weight="700" font-size="10" letter-spacing="5" fill="#DEDBC8" opacity="0.6">APEX</text>
+
+  <!-- Product name -->
+  <text x="30" y="355" font-family="sans-serif" font-weight="800" font-size="20" letter-spacing="-0.5" fill="#DEDBC8" opacity="0.9">VOID OVERSIZED</text>
+  <text x="30" y="378" font-family="sans-serif" font-weight="300" font-size="16" letter-spacing="3" fill="#DEDBC8" opacity="0.6">TEE</text>
+
+  <!-- Category -->
+  <text x="30" y="394" font-family="sans-serif" font-size="7" letter-spacing="3" fill="#DEDBC8" opacity="0.25">TOPS · HEAVYWEIGHT COTTON</text>
+
+  <!-- Diagonal accent line -->
+  <line x1="340" y1="355" x2="385" y2="310" stroke="#DEDBC8" stroke-width="0.5" opacity="0.15"/>
+</svg>

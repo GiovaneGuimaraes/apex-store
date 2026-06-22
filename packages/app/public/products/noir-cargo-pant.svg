@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#050505"/>
+
+  <!-- Ghost text -->
+  <text x="60" y="310" font-family="sans-serif" font-weight="900" font-size="260" fill="#DEDBC8" opacity="0.04">N</text>
+
+  <!-- Cargo pant silhouette (front view, flat lay) -->
+  <!-- Left leg -->
+  <path d="M 105,90 L 95,310 C 95,320 108,325 120,325 L 190,325 C 202,325 205,318 205,308 L 200,160 Z"
+        fill="#DEDBC8" fill-opacity="0.07" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.22"/>
+  <!-- Right leg -->
+  <path d="M 200,160 L 195,308 C 195,318 198,325 210,325 L 280,325 C 292,325 305,320 305,310 L 295,90 Z"
+        fill="#DEDBC8" fill-opacity="0.07" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.22"/>
+  <!-- Waistband -->
+  <rect x="92" y="80" width="216" height="20" rx="4" fill="#DEDBC8" opacity="0.12"/>
+  <!-- Waistband loops (belt loops) -->
+  <g fill="#DEDBC8" opacity="0.3">
+    <rect x="115" y="78" width="8" height="24" rx="2"/>
+    <rect x="152" y="78" width="8" height="24" rx="2"/>
+    <rect x="192" y="78" width="8" height="24" rx="2"/>
+    <rect x="232" y="78" width="8" height="24" rx="2"/>
+    <rect x="272" y="78" width="8" height="24" rx="2"/>
+  </g>
+  <!-- Cargo pocket left -->
+  <rect x="100" y="190" width="55" height="50" rx="4" fill="none" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.3"/>
+  <line x1="127" y1="190" x2="127" y2="240" stroke="#DEDBC8" stroke-width="0.5" opacity="0.15"/>
+  <!-- Cargo pocket button -->
+  <circle cx="127" cy="188" r="2.5" fill="#DEDBC8" opacity="0.4"/>
+  <!-- Cargo pocket right -->
+  <rect x="245" y="190" width="55" height="50" rx="4" fill="none" stroke="#DEDBC8" stroke-width="0.8" stroke-opacity="0.3"/>
+  <line x1="272" y1="190" x2="272" y2="240" stroke="#DEDBC8" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="272" cy="188" r="2.5" fill="#DEDBC8" opacity="0.4"/>
+
+  <!-- Seam lines -->
+  <line x1="150" y1="100" x2="120" y2="325" stroke="#DEDBC8" stroke-width="0.5" stroke-opacity="0.1" stroke-dasharray="4,6"/>
+  <line x1="250" y1="100" x2="280" y2="325" stroke="#DEDBC8" stroke-width="0.5" stroke-opacity="0.1" stroke-dasharray="4,6"/>
+
+  <!-- APEX badge -->
+  <text x="30" y="40" font-family="sans-serif" font-weight="700" font-size="10" letter-spacing="5" fill="#DEDBC8" opacity="0.6">APEX</text>
+
+  <!-- Product name -->
+  <text x="30" y="358" font-family="sans-serif" font-weight="800" font-size="22" letter-spacing="-0.5" fill="#DEDBC8" opacity="0.9">NOIR CARGO</text>
+  <text x="30" y="380" font-family="sans-serif" font-weight="300" font-size="16" letter-spacing="3" fill="#DEDBC8" opacity="0.6">PANT</text>
+
+  <!-- Category -->
+  <text x="30" y="395" font-family="sans-serif" font-size="7" letter-spacing="3" fill="#DEDBC8" opacity="0.25">BOTTOMS · RIPSTOP</text>
+
+  <!-- Corner accent -->
+  <line x1="358" y1="25" x2="378" y2="25" stroke="#DEDBC8" stroke-width="0.8" opacity="0.3"/>
+  <line x1="378" y1="25" x2="378" y2="45" stroke="#DEDBC8" stroke-width="0.8" opacity="0.3"/>
+</svg>

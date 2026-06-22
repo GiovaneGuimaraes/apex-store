@@ -1,0 +1,12 @@
+{
+  "name": "loja-mocked",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --filter apex-store-database build && pnpm --filter apex-store-api build && pnpm --filter apex-store-app build",
+    "build:db": "pnpm --filter apex-store-database build",
+    "build:api": "pnpm --filter apex-store-api build",
+    "build:app": "pnpm --filter apex-store-app build",
+    "dev:api": "pnpm --filter apex-store-api dev",
+    "dev:app": "pnpm --filter apex-store-app dev"
+  }
+}
